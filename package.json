@@ -1,0 +1,29 @@
+{
+  "name": "university-admission-tool-server",
+  "version": "1.0.0",
+  "description": "Backend Server Manangement",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "update_db": "npx prisma db pull && npx prisma generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasmailDuck/university-admission-tool-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JasmailDuck/university-admission-tool-server/issues"
+  },
+  "homepage": "https://github.com/JasmailDuck/university-admission-tool-server#readme",
+  "dependencies": {
+    "@prisma/client": "^4.5.0",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "prisma": "^4.5.0"
+  }
+}
